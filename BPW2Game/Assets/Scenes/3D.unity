@@ -2649,7 +2649,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321282438}
   m_LocalRotation: {x: -0, y: 0.9994924, z: -0, w: 0.031858236}
-  m_LocalPosition: {x: -40.713, y: 3.1630101, z: -3.742}
+  m_LocalPosition: {x: -49.94, y: 3.1630101, z: -4.33}
   m_LocalScale: {x: 1.5130635, y: 1.5130635, z: 1.5130635}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2943,6 +2943,78 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1461645266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1461645269}
+  - component: {fileID: 1461645268}
+  - component: {fileID: 1461645267}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1461645267
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461645266}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!320 &1461645268
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461645266}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 0172d12dc447717489aaa390c81820e7, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 2757286083787234476, guid: 0172d12dc447717489aaa390c81820e7, type: 2}
+    value: {fileID: 1461645267}
+  - key: {fileID: -3622536030238310666, guid: 0172d12dc447717489aaa390c81820e7, type: 2}
+    value: {fileID: 1361105380562668991}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &1461645269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461645266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -35.382263, y: 3.0871248, z: -1.6978502}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1470567022
 GameObject:
   m_ObjectHideFlags: 0
@@ -5599,6 +5671,8 @@ GameObject:
   - component: {fileID: 7093578265002251848}
   - component: {fileID: 4271488577569835670}
   - component: {fileID: 3507524761774906213}
+  - component: {fileID: 1361105380562668992}
+  - component: {fileID: 1361105380562668991}
   m_Layer: 0
   m_Name: pCube9
   m_TagString: Untagged
@@ -5606,6 +5680,42 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 65
   m_IsActive: 1
+--- !u!95 &1361105380562668991
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361105380562668990}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!320 &1361105380562668992
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361105380562668990}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 5bc890d9d7d1a594a9809b5021f982fe, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References: []
 --- !u!4 &1485202180774540708
 Transform:
   m_ObjectHideFlags: 0
@@ -6746,7 +6856,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c8dfbb91976f98b4fafd59003ce0dd5a, type: 2}
+  - {fileID: 2100000, guid: 98f30f209c3c3c740b5c4b41e0e612f2, type: 2}
   - {fileID: 2100000, guid: 7321bf2d9dad8f54095383fc0f6fdd66, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
